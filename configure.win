@@ -64,7 +64,7 @@ echo "libs: ; cd antb && ${MAKER} -j 4 && cd ANTS-build && ${MAKER} all install"
 
 # get / set up ANTs code
 antsgit=https://github.com/adigherman/ANTs.git
-antstag=4b044681a79bd60bfe170d1cf7b98a22e12ef6c1
+antstag=216146fca81e5d048383a9f7c858de6c3d956da0
 antsrtag=`git log --pretty=format:'%H' -n 1`
 git clone $antsbranch $antsgit ants
 mkdir -p ../data
